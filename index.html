@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Shaik Huzaifa - B.Tech Computer Science Student Portfolio">
+    <meta name="keywords" content="Computer Science Student, Web Developer, Python, Portfolio">
+    <meta name="author" content="Shaik Huzaifa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Huzaifa | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>Shaik Huzaifa</h1>
+    <p><strong>B.Tech Computer Science Student</strong> | <em>Aspiring Software Developer</em></p>
+    <p>Hyderabad, Telangana, India</p>
+</header>
+
+<!-- NAVIGATION -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">Huzaifa</div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+<main>
+
+<!-- PROFILE -->
+<section id="profile" class="card">
+    <h2>Professional Profile</h2>
+
+    <figure>
+        <img src="Huzaifa.jpg" alt="Profile Photo">
+        <figcaption><b>Computer Science Undergraduate</b></figcaption>
+        <p>
+            Motivated B.Tech Computer Science student with a strong foundation in
+            programming, web development, and problem-solving. Passionate about
+            building efficient, scalable, and user-friendly applications.
+        </p>
+    </figure>
+
+    <article>
+        <p>
+            <strong>Shaik Huzaifa</strong> is a <mark>Computer Science Engineering student</mark>
+            with a keen interest in Sotware development and data-driven solutions.
+        </p>
+
+        <p>
+            Hands-on experience in Python development through internships and
+            academic projects.
+            <abbr title="Python Programming Certificate - Infosys Springboard">Python</abbr>
+            certified from Infosys Springboard.
+        </p>
+
+        <blockquote>
+            "Learning by building real-world projects is the best way to master technology."
+        </blockquote>
+    </article>
+</section>
+
+<!-- SKILLS -->
+<section id="Skills" class="card">
+    <h2>Technical Skills</h2>
+
+    <h3>Programming Languages</h3>
+    <ol>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C</li>
+        <li>Dart (Basics)</li>
+    </ol>
+
+    <h3>Web Technologies</h3>
+    <ol>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h3>Database</h3>
+    <ol>
+        <li>MySQL</li>
+    </ol>
+
+    <h3>Frameworks & Tools</h3>
+    <ul>
+        <li>Git & GitHub</li>
+        <li>VS Code</li>
+        <li>Figma (UI Design Basics)</li>
+    </ul>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Technology</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Library Management System</td>
+                <td>HTML, CSS, JavaScript, MySQL</td>
+                <td>
+                    Developed a web-based system to manage book issues, returns,
+                    and student records with basic admin functionality.
+                </td>
+            </tr>
+
+            <tr>
+                <td>Portfolio Website</td>
+                <td>HTML, CSS</td>
+                <td>
+                    Designed a responsive personal portfolio showcasing skills,
+                    projects, and academic background.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+    <h2>Education</h2>
+    <p>
+        <strong>Bachelor of Technology (B.Tech) – Computer Science Engineering</strong><br>
+        KSRM College of Engineering, Kadapa<br>
+        <time>2023</time> – <time>2027</time>
+    </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form>
+        <fieldset>
+            <legend>Contact Form</legend>
+
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+
+            <textarea rows="4" placeholder="Message"></textarea>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</section>
+
+</main>
+
+<!-- ASIDE -->
+<aside>
+    <h3>Additional Strengths</h3>
+    <p>
+        Strong analytical skills, effective communication, teamwork,
+        problem-solving ability, eagerness to learn new technologies,
+        and experience collaborating on academic projects.
+    </p>
+</aside>
+
+<!-- FOOTER -->
+<footer>
+    <address>
+        Contact: <a href="mailto:shaikhuzi786@gmail.com">shaikhuzi786@gmail.com</a><br>
+        Location: Kadapa, Andhra Pradesh
+    </address>
+    <p>&copy; 2025 Shaik Huzaifa | B.Tech Computer Science Student</p>
+</footer>
+
+<!-- HAMBURGER SCRIPT -->
+<script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("navLinks");
+
+    hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
+</script>
+
+</body>
+</html>
